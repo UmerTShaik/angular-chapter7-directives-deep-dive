@@ -25,3 +25,15 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+Developers comments:
+Chapter 7>
+Directives deep dive , 
+Use Attribute Directives by declaring @Directive with selector inside as '[]' and apply on html element
+but this is not preferable when working with dom and  service workers , sometimes you might get errors , so  use ng c d to create new directive and use eleRef , renderer2 in constructor. You can use host binding for mouse in mouse out events and use input to do custom binging on element also
+
+* for structural indicates to angular
+
+Lets create new Structural directive called unless using ng g d unless
+
+Ngswitch in case if there are too many if condition
